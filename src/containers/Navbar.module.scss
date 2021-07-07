@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    padding: 0.5vh 2vw;
+    background-image: linear-gradient(to right, rgba(255, 69, 0, 0.95), goldenrod);
+    margin-bottom: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+
+    &cart {
+        margin-right: 6vw;
+    }
+
+    img {
+        height: 5vh;
+        
+    }
+    &__logo{
+        font-family: 'Hanalei', cursive;
+        font-size: 7vh;
+        font-weight: 5vh;
+        color: whitesmoke;
+        padding: 1vw;
+        &:hover{
+            font-size: 7.5vh;
+            color: purple;
+            cursor: pointer;
+        }
+    }
+    &__cart{
+        font-family: 'Montserrat Subrayada', sans-serif;
+        font-size: 3vh;
+        font-weight: bold;
+        &__number {
+            color: goldenrod;
+            font-size: 4vh;
+        }
+        &:hover {
+            cursor: pointer;
+            color: purple;
+            text-decoration: underline;
+        }
+    }
+    &__search{
+        margin-right: 10vw;
+    }
+}
+

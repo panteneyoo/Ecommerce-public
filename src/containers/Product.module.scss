@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+.productgrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 5vh;
+    column-gap: 1vw;
+    margin: 0.5vw;
+}
+
+.Carousel {
+    margin: 1vw;
+    padding: 1vw;
+    background: rgba(255, 69, 0, 0.5);
+    border-radius: 1vw;
+}
+
+.CategoryCarousel {
+    margin: 1vw;
+    padding: 0.5vh;
+    background-image: linear-gradient(rgba(255, 69, 0, 0.5),rgba(218, 165, 32, 0.5));
+    border-radius: 2vw;
+}
+
+.sectionTitle {
+    margin-top: 12vh;
+    margin-left: 1vw;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: orangered;
+    font-weight: bolder;
+}
+
+.categoryTitle {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    font-size: 3vh;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: gold;
+    font-weight: bolder;
+}

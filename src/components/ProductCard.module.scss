@@ -1,0 +1,63 @@
+.PdCard {
+    width: 18vw;
+    border-radius: 2vw;
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+        width: 15vw;
+        height: 15vw;
+        object-fit: contain;
+        padding: 1vw;
+        border-radius: 1vw;
+    }
+    
+    border: none;
+    box-shadow: 0vw 0vw 1vw 0vw lightgrey;
+    &:hover {
+        box-shadow: 0vw 0vw 1vw 0vw grey;
+    }
+    &__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+            color: orangered;
+            font-size: 1.5vw;
+        }
+    }
+    .purchase {
+        display: flex;
+        justify-content: space-between;
+        button {
+            height: 6vh;
+            width: 9vw;
+            border-radius: 3vw;
+            border: none;
+            background-color: lightgray;
+            font-size: 2vh;
+            color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            &:hover {
+                box-shadow: 0vw 0vw 1vw 0vw orange;
+            }
+            &:active {
+                background-color: goldenrod;
+                color: black;
+            }
+        }
+        .add {
+            padding: 0.5vh 1.5vw;
+            font-weight: bolder;
+            font-size: 1.6vh;
+            color: whitesmoke;
+            border: 3px solid orange;
+            border-radius: 3vw;
+            background-color: orangered;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}

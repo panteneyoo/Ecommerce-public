@@ -1,0 +1,19 @@
+.Counter {
+    button{
+        height: 3vh;
+        width: 3vh;
+        margin: 0.5vw;
+        border-radius: 1vh;
+        font-size: 2vh;
+        border: none;
+        background-color: lightgray;
+        color: white;
+        :hover{
+            cursor: pointer;
+        }
+    }
+    span{
+        font-size: 2vh;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}

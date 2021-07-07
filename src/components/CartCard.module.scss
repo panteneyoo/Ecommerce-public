@@ -1,0 +1,42 @@
+.CartCard{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    gap: 2vw;
+    margin: 1vh 2vw;
+    padding: 5vh 2vw;
+    border: 1px solid lightgray;
+    &__innerBlock {
+        width: 15vw;
+    }
+    img {
+        height: 15vh;
+        width: 15vh;
+        object-fit: contain;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h5 {
+        color: orangered;
+        font-size: 1.5vw;
+    }
+
+    h6 {
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 1.5vh;
+        color: orangered;
+        &:hover {
+            cursor: pointer;
+        }
+        &:active {
+            color: peru;
+        }
+    }
+}
