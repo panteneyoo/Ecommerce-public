@@ -14,7 +14,7 @@ const App = () => {
       <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/ecommerce">
                 <Redirect to="/products" />
             </Route>
             <Route exact path="/products">
