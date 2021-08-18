@@ -14,16 +14,16 @@ const App = () => {
       <Router>
           <Navbar />
           <Switch>
-            <Route exact path="/ecommerce">
-                <Redirect to="/products" />
+            <Route exact path="/Ecommerce-public">
+                <Redirect to="/Ecommerce-public/products" />
             </Route>
-            <Route exact path="/products">
+            <Route exact path="/Ecommerce-public/products">
               <Product />
             </Route>
-            <Route path="/products/:id">
+            <Route path="/Ecommerce-public/products/:id">
               <ProductInfo />
             </Route>
-            <Route path="/cart">
+            <Route path="/Ecommerce-public/cart">
               <Cart />
             </Route>
           </Switch>
