@@ -12,9 +12,7 @@ const App = () => {
 
   return (
       <Router>
-          <header>
-            <Navbar />
-          </header>
+          <Navbar />
           <Switch>
             <Route exact path="/">
                 <Redirect to="/products" />
