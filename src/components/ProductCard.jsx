@@ -45,7 +45,7 @@ export const ProductCard = ({item}) => {
 
     return(
         <div className={styles.PdCard}>
-            <img onClick={() => history.push(`/products/${item.id}`)} src={ item.image } alt="item image not found"/>
+            <img onClick={() => history.push(`/Ecommerce-public/products/${item.id}`)} src={ item.image } alt="item image not found"/>
             <h5>{item.title}</h5>
             <div>
                 <div className={styles.PdCard__price}>
@@ -53,7 +53,7 @@ export const ProductCard = ({item}) => {
                     <Quantity onChange={handleQtyChange}/>
                 </div>
                 <div className={styles.purchase}>
-                    <button onClick={() => history.push(`/products/${item.id}`)}>Shop now</button>
+                    <button onClick={() => history.push(`/Ecommerce-public/products/${item.id}`)}>Shop now</button>
                     <button onClick={handleAddToCart} className={styles.add}>Add to Cart</button>
                 </div>
             </div>

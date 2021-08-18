@@ -61,11 +61,11 @@ const ProductInfo = () => {
                         </div>
                     </div>
                 </div>
-                <button className={styles.back} onClick={() => history.push(`/products`)} >Back to Home</button>
+                <button className={styles.back} onClick={() => history.push(`/Ecommerce-public/products`)} >Back to Home</button>
                 </>
             ):(
                 <div className={styles.notfound}><p>Items not found</p>
-                <button onClick={() => history.push(`/products`)} >Back to Home</button></div>
+                <button onClick={() => history.push(`/Ecommerce-public/products`)} >Back to Home</button></div>
             )}
         </>
     );

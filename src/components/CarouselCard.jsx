@@ -7,7 +7,7 @@ export const CarouselCard = ({item}) => {
 
     return(
         <div className={styles.CarouselCard}>
-            <img onClick={() => history.push(`/products/${item.id}`)} src={ item.image } alt="item image not found"/>
+            <img onClick={() => history.push(`/Ecommerce-public/products/${item.id}`)} src={ item.image } alt="item image not found"/>
             <div className={styles.CarouselCard__tag}>
                 <h4>{item.title}</h4>
                 <h3>${item.price}</h3>

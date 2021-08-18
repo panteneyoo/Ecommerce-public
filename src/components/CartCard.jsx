@@ -21,14 +21,14 @@ export const CartCard = ({item, onDelete, onChange}) => {
     const totalprice = qty * item.price;
     return(
         <div className={styles.CartCard}>
-            <img onClick={() => history.push(`/products/${item.id}`)} src={item.image} alt="item image not found" />
+            <img onClick={() => history.push(`/Ecommerce-public/products/${item.id}`)} src={item.image} alt="item image not found" />
             <div className={styles.CartCard__innerBlock}><h3>{item.title}</h3></div>
             <div className={styles.CartCard__innerBlock}><h4>{item.category}</h4></div>
             <div className={styles.CartCard__innerBlock}><h5>${item.price}</h5></div>
             <div className={styles.CartCard__innerBlock}><Quantity onChange={handleQtyChange} start={qty} /></div>
             <div className={styles.CartCard__innerBlock}><h5>${totalprice.toFixed(2)}</h5></div>
             <div className={styles.CartCard__innerBlock}>
-                <h6 onClick={() => history.push(`/products/${item.id}`)}>View Product</h6>
+                <h6 onClick={() => history.push(`/Ecommerce-public/products/${item.id}`)}>View Product</h6>
                 <h6 onClick={handleDelete}>Delete Items</h6>
             </div>
         </div>

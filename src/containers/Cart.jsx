@@ -50,7 +50,7 @@ export const Cart = () => {
                 <div className={styles.footer}> 
                     <span className={styles.footer__amount}>There are <span className={styles.footer__number}>{totalItems}</span> items in your cart XD</span>
                     <div className={styles.footer__total}><span>Grand Total: </span><span className={styles.footer__number}>${totalPrice.toFixed(2)}</span><button>Checkout</button></div>
-                    <div><button onClick={() => history.push(`/products`)} >Back to Home</button></div>
+                    <div><button onClick={() => history.push(`/Ecommerce-public/products`)} >Back to Home</button></div>
                 </div>
             </div>
             )
@@ -58,7 +58,7 @@ export const Cart = () => {
             (<div className={styles.Empty}>
                 <h1>:/ Oops empty cart please add more items :D</h1>
                 <div className={styles.footer}>
-                    <button onClick={() => history.push(`/products`)} >Back to Home</button>
+                    <button onClick={() => history.push(`/Ecommerce-public/products`)} >Back to Home</button>
                 </div>
             </div>)
         }
